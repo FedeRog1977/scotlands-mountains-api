@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Aberdeen City",
+    "lat": 57.1499,
+    "lon": -2.0938
+  },
+  {
+    "name": "Aberdeenshire",
+    "lat": 57.2869,
+    "lon": -2.3816
+  },
+  {
+    "name": "Angus",
+    "lat": 56.698,
+    "lon": -2.9124
+  },
+  {
+    "name": "Argyll and Bute",
+    "lat": 56.4006,
+    "lon": -5.4807
+  },
+  {
+    "name": "Clackmannanshire",
+    "lat": 56.1075,
+    "lon": -3.7529
+  },
+  {
+    "name": "Dumfries and Galloway",
+    "lat": 55.0701,
+    "lon": -3.6053
+  },
+  {
+    "name": "Dundee",
+    "lat": 56.462,
+    "lon": -2.9707
+  },
+  {
+    "name": "East Ayrshire",
+    "lat": 55.4518,
+    "lon": -4.2644
+  },
+  {
+    "name": "East Dunbartonshire",
+    "lat": 55.9743,
+    "lon": -4.2023
+  },
+  {
+    "name": "East Lothian",
+    "lat": 55.9587,
+    "lon": -2.7749
+  },
+  {
+    "name": "East Renfrewshire",
+    "lat": 55.7705,
+    "lon": -4.336
+  },
+  {
+    "name": "Edinburgh",
+    "lat": 55.9533,
+    "lon": -3.1883
+  },
+  {
+    "name": "Falkirk",
+    "lat": 56.0019,
+    "lon": -3.7839
+  },
+  {
+    "name": "Fife",
+    "lat": 56.2082,
+    "lon": -3.1495
+  },
+  {
+    "name": "Glasgow",
+    "lat": 55.8642,
+    "lon": -4.2518
+  },
+  {
+    "name": "Highland",
+    "lat": 57.4596,
+    "lon": -4.2264
+  },
+  {
+    "name": "Inverclyde",
+    "lat": 55.9317,
+    "lon": -4.68
+  },
+  {
+    "name": "Midlothian",
+    "lat": 55.8746,
+    "lon": -3.1054
+  },
+  {
+    "name": "Moray",
+    "lat": 57.6498,
+    "lon": -3.3168
+  },
+  {
+    "name": "Na h-Eileanan an Iar",
+    "lat": 57.6205,
+    "lon": -7.3308
+  },
+  {
+    "name": "North Ayrshire",
+    "lat": 55.6417,
+    "lon": -4.7595
+  },
+  {
+    "name": "North Lanarkshire",
+    "lat": 55.8662,
+    "lon": -3.9613
+  },
+  {
+    "name": "Orkney Islands",
+    "lat": 58.9809,
+    "lon": -2.9605
+  },
+  {
+    "name": "Perth and Kinross",
+    "lat": 56.3954,
+    "lon": -3.4284
+  },
+  {
+    "name": "Renfrewshire",
+    "lat": 55.8467,
+    "lon": -4.5331
+  },
+  {
+    "name": "Scottish Borders",
+    "lat": 55.5486,
+    "lon": -2.7861
+  },
+  {
+    "name": "Shetland Islands",
+    "lat": 60.5297,
+    "lon": -1.2659
+  },
+  {
+    "name": "South Ayrshire",
+    "lat": 55.4589,
+    "lon": -4.6292
+  },
+  {
+    "name": "South Lanarkshire",
+    "lat": 55.6736,
+    "lon": -3.782
+  },
+  {
+    "name": "Stirlingshire",
+    "lat": 56.1165,
+    "lon": -3.9369
+  },
+  {
+    "name": "West Dunbartonshire",
+    "lat": 55.9451,
+    "lon": -4.5646
+  },
+  {
+    "name": "West Lothian",
+    "lat": 55.907,
+    "lon": -3.5517
+  }
+]
