@@ -1,727 +1,727 @@
 [
   {
-    "name": "highlands",
+    "name": "Highlands",
     "subRegions": [
       {
-        "name": "sutherland",
+        "name": "Sutherland",
         "subSubRegions": [
           {
-            "name": "caithness",
+            "name": "Caithness",
             "lat": 58.4389,
             "lon": -3.0937
           },
           {
-            "name": "durness",
+            "name": "Durness",
             "lat": 58.5686,
             "lon": -4.7469
           },
           {
-            "name": "tongue",
+            "name": "Tongue",
             "lat": 58.4761,
             "lon": -4.4175
           },
           {
-            "name": "scourie",
+            "name": "Scourie",
             "lat": 58.3518,
             "lon": -5.1521
           },
           {
-            "name": "wick",
+            "name": "Wick",
             "lat": 58.4389,
             "lon": -3.0937
           },
           {
-            "name": "thurso",
+            "name": "Thurso",
             "lat": 58.5936,
             "lon": -3.5221
           },
           {
-            "name": "dornoch",
+            "name": "Dornoch",
             "lat": 57.8791,
             "lon": -4.028
           },
           {
-            "name": "brora",
+            "name": "Brora",
             "lat": 58.0122,
             "lon": -3.8525
           },
           {
-            "name": "lairg",
+            "name": "Lairg",
             "lat": 58.0221,
             "lon": -4.4024
           }
         ]
       },
       {
-        "name": "ullapool",
+        "name": "Ullapool",
         "subSubRegions": [
           {
-            "name": "lochinver",
+            "name": "Lochinver",
             "lat": 58.1462,
             "lon": -5.2426
           },
           {
-            "name": "assynt",
+            "name": "Assynt",
             "lat": 58.1729,
             "lon": -5.0305
           },
           {
-            "name": "coigach",
+            "name": "Coigach",
             "lat": 58.0333,
             "lon": -5.3167
           },
           {
-            "name": "ullapool",
+            "name": "Ullapool",
             "lat": 57.8954,
             "lon": -5.1613
           },
           {
-            "name": "the fannichs",
+            "name": "The Fannichs",
             "lat": 57.7001,
             "lon": -5.0168
           },
           {
-            "name": "dundonnell",
+            "name": "Dundonnell",
             "lat": 57.8386,
             "lon": -5.2127
           },
           {
-            "name": "easter ross",
+            "name": "Easter Ross",
             "lat": 58.277,
             "lon": -3.779
           },
           {
-            "name": "tain",
+            "name": "Tain",
             "lat": 57.8115,
             "lon": -4.0552
           },
           {
-            "name": "portmahomack",
+            "name": "Portmahomack",
             "lat": 57.8358,
             "lon": -3.8275
           }
         ]
       },
       {
-        "name": "torridon",
+        "name": "Torridon",
         "subSubRegions": [
           {
-            "name": "gairloch",
+            "name": "Gairloch",
             "lat": 57.7282,
             "lon": -5.6939
           },
           {
-            "name": "poolewe",
+            "name": "Poolewe",
             "lat": 57.7651,
             "lon": -5.6052
           },
           {
-            "name": "aultbea",
+            "name": "Aultbea",
             "lat": 57.8408,
             "lon": -5.5873
           },
           {
-            "name": "torridon",
+            "name": "Torridon",
             "lat": 57.5469,
             "lon": -5.5134
           },
           {
-            "name": "shieldaig",
+            "name": "Shieldaig",
             "lat": 57.5251,
             "lon": -5.6479
           },
           {
-            "name": "kinlochewe",
+            "name": "Kinlochewe",
             "lat": 57.604,
             "lon": -5.2992
           },
           {
-            "name": "lochcarron",
+            "name": "Lochcarron",
             "lat": 57.3977,
             "lon": -5.5031
           },
           {
-            "name": "strathcarron",
+            "name": "Strathcarron",
             "lat": 57.4245,
             "lon": -5.4284
           },
           {
-            "name": "achnasheen",
+            "name": "Achnasheen",
             "lat": 57.5786,
             "lon": -5.0788
           }
         ]
       },
       {
-        "name": "loch ness",
+        "name": "Loch Ness",
         "subSubRegions": [
           {
-            "name": "loch ness",
+            "name": "Loch Ness",
             "lat": 57.3229,
             "lon": -4.4244
           },
           {
-            "name": "glen affric",
+            "name": "Glen Affric",
             "lat": 57.252,
             "lon": -5.0644
           },
           {
-            "name": "cannich",
+            "name": "Cannich",
             "lat": 57.3471,
             "lon": -4.763
           },
           {
-            "name": "strathfarrar",
+            "name": "Strathfarrar",
             "lat": 57.4167,
             "lon": -4.8333
           },
           {
-            "name": "black isle",
+            "name": "Black Isle",
             "lat": 57.5833,
             "lon": -4.25
           },
           {
-            "name": "dingwall",
+            "name": "Dingwall",
             "lat": 57.5953,
             "lon": -4.4284
           },
           {
-            "name": "strathpeffer",
+            "name": "Strathpeffer",
             "lat": 57.5851,
             "lon": -4.5397
           },
           {
-            "name": "garve",
+            "name": "Garve",
             "lat": 57.6171,
             "lon": -4.69
           },
           {
-            "name": "inverness",
+            "name": "Inverness",
             "lat": 57.4778,
             "lon": -4.2247
           }
         ]
       },
       {
-        "name": "kintail",
+        "name": "Kintail",
         "subSubRegions": [
           {
-            "name": "glen shiel",
+            "name": "Glen Shiel",
             "lat": 57.1667,
             "lon": -5.3667
           },
           {
-            "name": "dornie",
+            "name": "Dornie",
             "lat": 57.2791,
             "lon": -5.5155
           },
           {
-            "name": "cluanie",
+            "name": "Cluanie",
             "lat": 57.1167,
             "lon": -5.0833
           },
           {
-            "name": "kyle of lochalsh",
+            "name": "Kyle of Lochalsh",
             "lat": 57.2826,
             "lon": -5.7143
           },
           {
-            "name": "plockton",
+            "name": "Plockton",
             "lat": 57.3406,
             "lon": -5.6491
           },
           {
-            "name": "glenelg",
+            "name": "Glenelg",
             "lat": 57.2139,
             "lon": -5.6203
           },
           {
-            "name": "arnisdale",
+            "name": "Arnisdale",
             "lat": 57.1344,
             "lon": -5.5662
           }
         ]
       },
       {
-        "name": "moray",
+        "name": "Moray",
         "subSubRegions": [
           {
-            "name": "nairn",
+            "name": "Nairn",
             "lat": 57.5864,
             "lon": -3.8685
           },
           {
-            "name": "forres",
+            "name": "Forres",
             "lat": 57.6098,
             "lon": -3.62
           },
           {
-            "name": "elgin",
+            "name": "Elgin",
             "lat": 57.6495,
             "lon": -3.3185
           },
           {
-            "name": "lossiemouth",
+            "name": "Lossiemouth",
             "lat": 57.7216,
             "lon": -3.2803
           },
           {
-            "name": "buckie",
+            "name": "Buckie",
             "lat": 57.6774,
             "lon": -2.9673
           },
           {
-            "name": "dufftown",
+            "name": "Dufftown",
             "lat": 57.4436,
             "lon": -3.1284
           },
           {
-            "name": "keith",
+            "name": "Keith",
             "lat": 57.5431,
             "lon": -2.9515
           }
         ]
       },
       {
-        "name": "aberdeenshire",
+        "name": "Aberdeenshire",
         "subSubRegions": [
           {
-            "name": "banff",
+            "name": "Banff",
             "lat": 57.6665,
             "lon": -2.524
           },
           {
-            "name": "buchan",
+            "name": "Buchan",
             "lat": 57.4578,
             "lon": -1.8131
           },
           {
-            "name": "huntly",
+            "name": "Huntly",
             "lat": 57.4459,
             "lon": -2.7878
           },
           {
-            "name": "alford",
+            "name": "Alford",
             "lat": 57.2333,
             "lon": -2.7048
           },
           {
-            "name": "inverurie",
+            "name": "Inverurie",
             "lat": 57.2835,
             "lon": -2.374
           },
           {
-            "name": "stonehaven",
+            "name": "Stonehaven",
             "lat": 56.9637,
             "lon": -2.2093
           },
           {
-            "name": "banchory",
+            "name": "Banchory",
             "lat": 57.0539,
             "lon": -2.491
           },
           {
-            "name": "deeside",
+            "name": "Deeside",
             "lat": 53.1997,
             "lon": -3.033
           },
           {
-            "name": "aberdeen city",
+            "name": "Aberdeen City",
             "lat": 57.1499,
             "lon": -2.0938
           }
         ]
       },
       {
-        "name": "fort william, lochaber and lorn",
+        "name": "Fort William, Lochaber and Lorn",
         "subSubRegions": [
           {
-            "name": "fort william",
+            "name": "Fort William",
             "lat": 56.8198,
             "lon": -5.1052
           },
           {
-            "name": "glen nevis",
+            "name": "Glen Nevis",
             "lat": 56.7969,
             "lon": -5.0036
           },
           {
-            "name": "spean bridge",
+            "name": "Spean Bridge",
             "lat": 56.8957,
             "lon": -4.9151
           },
           {
-            "name": "roy bridge",
+            "name": "Roy Bridge",
             "lat": 56.8937,
             "lon": -4.838
           },
           {
-            "name": "glencoe",
+            "name": "Glencoe",
             "lat": 56.6826,
             "lon": -5.1023
           },
           {
-            "name": "kinlochleven",
+            "name": "Kinlochleven",
             "lat": 56.7131,
             "lon": -4.9638
           },
           {
-            "name": "loch lochy to knoydart",
+            "name": "Loch Lochy to Knoydart",
             "lat": 57.07,
             "lon": -5.66
           },
           {
-            "name": "ardnamurchan",
+            "name": "Ardnamurchan",
             "lat": 56.7167,
             "lon": -6.0
           },
           {
-            "name": "strontian",
+            "name": "Strontian",
             "lat": 56.6954,
             "lon": -5.5712
           },
           {
-            "name": "mallaig",
+            "name": "Mallaig",
             "lat": 57.0038,
             "lon": -5.8272
           },
           {
-            "name": "arisaig",
+            "name": "Arisaig",
             "lat": 56.9101,
             "lon": -5.8427
           },
           {
-            "name": "glenfinnan",
+            "name": "Glenfinnan",
             "lat": 56.8714,
             "lon": -5.4383
           }
         ]
       },
       {
-        "name": "cairngorms",
+        "name": "Cairngorms",
         "subSubRegions": [
           {
-            "name": "kingussie",
+            "name": "Kingussie",
             "lat": 57.0814,
             "lon": -4.0545
           },
           {
-            "name": "newtonmore",
+            "name": "Newtonmore",
             "lat": 57.0664,
             "lon": -4.1215
           },
           {
-            "name": "dalwhinnie",
+            "name": "Dalwhinnie",
             "lat": 56.94,
             "lon": -4.2391
           },
           {
-            "name": "aviemore",
+            "name": "Aviemore",
             "lat": 57.1945,
             "lon": -3.8238
           },
           {
-            "name": "rothiemurchus",
+            "name": "Rothiemurchus",
             "lat": 57.1762,
             "lon": -3.8174
           },
           {
-            "name": "carrbridge",
+            "name": "Carrbridge",
             "lat": 57.2845,
             "lon": -3.8087
           },
           {
-            "name": "grantown-on-spey",
+            "name": "Grantown-on-Spey",
             "lat": 57.3304,
             "lon": -3.6096
           },
           {
-            "name": "nethy bridge",
+            "name": "Nethy Bridge",
             "lat": 57.2636,
             "lon": -3.6541
           },
           {
-            "name": "boat of garten",
+            "name": "Boat of Garten",
             "lat": 57.2487,
             "lon": -3.7533
           },
           {
-            "name": "braemar",
+            "name": "Braemar",
             "lat": 57.0065,
             "lon": -3.3979
           },
           {
-            "name": "upper deeside",
+            "name": "Upper Deeside",
             "lat": 53.1997,
             "lon": -3.033
           },
           {
-            "name": "ballater",
+            "name": "Ballater",
             "lat": 57.05,
             "lon": -3.0366
           },
           {
-            "name": "balmoral",
+            "name": "Balmoral",
             "lat": 57.0397,
             "lon": -3.2292
           },
           {
-            "name": "glenlivet",
+            "name": "Glenlivet",
             "lat": 57.3434,
             "lon": -3.3386
           },
           {
-            "name": "tomintoul",
+            "name": "Tomintoul",
             "lat": 57.2508,
             "lon": -3.378
           },
           {
-            "name": "strathdon",
+            "name": "Strathdon",
             "lat": 57.1991,
             "lon": -3.0746
           }
         ]
       },
       {
-        "name": "perthshire",
+        "name": "Perthshire",
         "subSubRegions": [
           {
-            "name": "pitlochry",
+            "name": "Pitlochry",
             "lat": 56.7044,
             "lon": -3.7297
           },
           {
-            "name": "blair atholl",
+            "name": "Blair Atholl",
             "lat": 56.7682,
             "lon": -3.8434
           },
           {
-            "name": "loch rannoch",
+            "name": "Loch Rannoch",
             "lat": 56.6977,
             "lon": -4.2283
           },
           {
-            "name": "loch tay",
+            "name": "Loch Tay",
             "lat": 56.5238,
             "lon": -4.1361
           },
           {
-            "name": "aberfeldy",
+            "name": "Aberfeldy",
             "lat": 56.6218,
             "lon": -3.867
           },
           {
-            "name": "killin",
+            "name": "Killin",
             "lat": 56.4693,
             "lon": -4.3192
           },
           {
-            "name": "glen lyon",
+            "name": "Glen Lyon",
             "lat": 56.6015,
             "lon": -4.0729
           },
           {
-            "name": "dunkeld",
+            "name": "Dunkeld",
             "lat": 56.5677,
             "lon": -3.5862
           },
           {
-            "name": "blairgowrie",
+            "name": "Blairgowrie",
             "lat": 56.5894,
             "lon": -3.3378
           },
           {
-            "name": "crieff",
+            "name": "Crieff",
             "lat": 56.3766,
             "lon": -3.842
           },
           {
-            "name": "comrie",
+            "name": "Comrie",
             "lat": 56.378,
             "lon": -3.9952
           },
           {
-            "name": "auchterarder",
+            "name": "Auchterarder",
             "lat": 56.3006,
             "lon": -3.7
           },
           {
-            "name": "perth",
+            "name": "Perth",
             "lat": 56.395,
             "lon": -3.4308
           },
           {
-            "name": "kinross",
+            "name": "Kinross",
             "lat": 56.2061,
             "lon": -3.4229
           }
         ]
       },
       {
-        "name": "argyll and bute",
+        "name": "Argyll and Bute",
         "subSubRegions": [
           {
-            "name": "oban",
+            "name": "Oban",
             "lat": 56.4152,
             "lon": -5.471
           },
           {
-            "name": "tyndrum",
+            "name": "Tyndrum",
             "lat": 56.4361,
             "lon": -4.7118
           },
           {
-            "name": "bridge of orchy",
+            "name": "Bridge of Orchy",
             "lat": 56.5141,
             "lon": -4.7661
           },
           {
-            "name": "dalmally",
+            "name": "Dalmally",
             "lat": 56.4023,
             "lon": -4.9722
           },
           {
-            "name": "inveraray",
+            "name": "Inveraray",
             "lat": 56.2318,
             "lon": -5.0754
           },
           {
-            "name": "lochgilphead",
+            "name": "Lochgilphead",
             "lat": 56.0383,
             "lon": -5.4323
           },
           {
-            "name": "cowal",
+            "name": "Cowal",
             "lat": 56.0211,
             "lon": -5.063
           },
           {
-            "name": "dunoon",
+            "name": "Dunoon",
             "lat": 55.951,
             "lon": -4.9262
           },
           {
-            "name": "kintyre",
+            "name": "Kintyre",
             "lat": 55.565,
             "lon": -5.566
           },
           {
-            "name": "tarbert",
+            "name": "Tarbert",
             "lat": 55.8632,
             "lon": -5.4156
           },
           {
-            "name": "campbeltown",
+            "name": "Campbeltown",
             "lat": 55.4241,
             "lon": -5.6054
           },
           {
-            "name": "isle of bute",
+            "name": "Isle of Bute",
             "lat": 55.8274,
             "lon": -5.0936
           },
           {
-            "name": "isle of gigha",
+            "name": "Isle of Gigha",
             "lat": 55.6845,
             "lon": -5.7491
           },
           {
-            "name": "isle of lismore",
+            "name": "Isle of Lismore",
             "lat": 56.5006,
             "lon": -5.5263
           }
         ]
       },
       {
-        "name": "loch lomond and the trossachs",
+        "name": "Loch Lomond and The Trossachs",
         "subSubRegions": [
           {
-            "name": "the trossachs",
+            "name": "The Trossachs",
             "lat": 56.2343,
             "lon": -4.41
           },
           {
-            "name": "callander",
+            "name": "Callander",
             "lat": 56.2451,
             "lon": -4.2117
           },
           {
-            "name": "aberfoyle",
+            "name": "Aberfoyle",
             "lat": 56.1787,
             "lon": -4.3846
           },
           {
-            "name": "arrochar",
+            "name": "Arrochar",
             "lat": 56.201,
             "lon": -4.7455
           },
           {
-            "name": "crianlarich",
+            "name": "Crianlarich",
             "lat": 56.3931,
             "lon": -4.619
           },
           {
-            "name": "drymen",
+            "name": "Drymen",
             "lat": 56.0655,
             "lon": -4.45
           },
           {
-            "name": "luss",
+            "name": "Luss",
             "lat": 56.1015,
             "lon": -4.6423
           },
           {
-            "name": "balloch",
+            "name": "Balloch",
             "lat": 56.0027,
             "lon": -4.5801
           },
           {
-            "name": "balmaha",
+            "name": "Balmaha",
             "lat": 56.0837,
             "lon": -4.5362
           },
           {
-            "name": "strathyre",
+            "name": "Strathyre",
             "lat": 56.3245,
             "lon": -4.3298
           },
           {
-            "name": "lochearnhead",
+            "name": "Lochearnhead",
             "lat": 56.3888,
             "lon": -4.2861
           }
         ]
       },
       {
-        "name": "angus",
+        "name": "Angus",
         "subSubRegions": [
           {
-            "name": "angus glens",
+            "name": "Angus Glens",
             "lat": 56.698,
             "lon": -2.9124
           },
           {
-            "name": "forfar",
+            "name": "Forfar",
             "lat": 56.6436,
             "lon": -2.8891
           },
           {
-            "name": "kirriemuir",
+            "name": "Kirriemuir",
             "lat": 56.6751,
             "lon": -3.0035
           },
           {
-            "name": "dundee",
+            "name": "Dundee",
             "lat": 56.462,
             "lon": -2.9707
           },
           {
-            "name": "arbroath",
+            "name": "Arbroath",
             "lat": 56.5591,
             "lon": -2.5915
           },
           {
-            "name": "montrose",
+            "name": "Montrose",
             "lat": 56.7069,
             "lon": -2.4661
           }
@@ -730,7 +730,7 @@
     ]
   },
   {
-    "name": "islands",
+    "name": "Islands",
     "subRegions": [
       {
         "name": "Isle of Skye and Raasay",
@@ -1180,7 +1180,7 @@
     ]
   },
   {
-    "name": "lowlands",
+    "name": "Lowlands",
     "subRegions": [
       {
         "name": "Fife and Stirling",

@@ -16,66 +16,65 @@ async function getRegions(req, res) {
 
 // // @desc    Gets Single Region
 // // @route   GET /api/region/:id
-async function getRegion(
+async function getRegion(req, res, regionName) {
+  try {
+    const region = await Model.findByRegionName(regionName);
+
+    if (!region) {
+      res.writeHead(404, { "Content-Type": "application/json" });
+      res.end(JSON.stringify({ message: "Region Not Found" }));
+    } else {
+      res.writeHead(200, { "Content-Type": "application/json" });
+      res.end(JSON.stringify(region));
+    }
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+// // @desc    Gets Single Sub-Region
+// // @route   GET /api/region/:id/:id2
+async function getSubRegion(req, res, regionName, subRegionName) {
+  try {
+    const region = await Model.findByRegionName(regionName, subRegionName);
+
+    if (!region) {
+      res.writeHead(404, { "Content-Type": "application/json" });
+      res.end(JSON.stringify({ message: "Region Not Found" }));
+    } else {
+      res.writeHead(200, { "Content-Type": "application/json" });
+      res.end(JSON.stringify(region));
+    }
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+// // @desc    Gets Single Sub-Sub-Region
+// // @route   GET /api/region/:id/:id2/:id3
+async function getSubSubRegion(
   req,
   res,
   regionName,
   subRegionName,
-  subSubRegionName,
-  config
+  subSubRegionName
 ) {
-  switch (config) {
-    case "REGION":
-      try {
-        const region = await Model.findByRegionName(regionName);
+  try {
+    const region = await Model.findByRegionName(
+      regionName,
+      subRegionName,
+      subSubRegionName
+    );
 
-        if (!region) {
-          res.writeHead(404, { "Content-Type": "application/json" });
-          res.end(JSON.stringify({ message: "Region Not Found" }));
-        } else {
-          res.writeHead(200, { "Content-Type": "application/json" });
-          res.end(JSON.stringify(region));
-        }
-      } catch (error) {
-        console.log(error);
-      }
-
-    case "SUB_REGION":
-      try {
-        const subRegion = await Model.findBySubRegionName(
-          regionName,
-          subRegionName
-        );
-
-        if (!subRegion) {
-          res.writeHead(404, { "Content-Type": "application/json" });
-          res.end(JSON.stringify({ message: "Region Not Found" }));
-        } else {
-          res.writeHead(200, { "Content-Type": "application/json" });
-          res.end(JSON.stringify(subRegion));
-        }
-      } catch (error) {
-        console.log(error);
-      }
-
-    case "SUB_SUB_REGION":
-      try {
-        const subSubRegion = await Model.findBySubSubRegionName(
-          regionName,
-          subRegionName,
-          subSubRegionName
-        );
-
-        if (!subSubRegion) {
-          res.writeHead(404, { "Content-Type": "application/json" });
-          res.end(JSON.stringify({ message: "Region Not Found" }));
-        } else {
-          res.writeHead(200, { "Content-Type": "application/json" });
-          res.end(JSON.stringify(subSubRegion));
-        }
-      } catch (error) {
-        console.log(error);
-      }
+    if (!region) {
+      res.writeHead(404, { "Content-Type": "application/json" });
+      res.end(JSON.stringify({ message: "Region Not Found" }));
+    } else {
+      res.writeHead(200, { "Content-Type": "application/json" });
+      res.end(JSON.stringify(region));
+    }
+  } catch (error) {
+    console.log(error);
   }
 }
 
@@ -154,7 +153,9 @@ async function getRegion(
 
 module.exports = {
   getRegions,
-  getRegion
+  getRegion,
+  getSubRegion,
+  getSubSubRegion
   //   createProduct,
   //   updateProduct,
   //   deleteProduct

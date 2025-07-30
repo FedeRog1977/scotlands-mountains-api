@@ -8,22 +8,20 @@ const {
 } = require("./controllers/productController");
 const {
   getRegions,
-  getRegion
+  getRegion,
+  getSubRegion,
+  getSubSubRegion
   // createRegion,
   // updateRegion,
   // deleteRegion
 } = require("./controllers/regionController");
 
 const server = http.createServer((req, res) => {
-  const id = req.url.split("/")[3];
-  const id2 = req.url.split("/")[4];
-  const id3 = req.url.split("/")[5];
-
-  // const { idOne, idTwo, idThree } = [
-  //   req.url.split("/")[3],
-  //   req.url.split("/")[4],
-  //   req.url.split("/")[5]
-  // ];
+  const [id1, id2, id3] = [
+    req.url.split("/")[3],
+    req.url.split("/")[4],
+    req.url.split("/")[5]
+  ];
 
   // --- Regions ---
   if (req.url === "/api/regions" && req.method === "GET") {
@@ -34,37 +32,37 @@ const server = http.createServer((req, res) => {
     req.url.match(/\/api\/regions\/\w+/) &&
     req.method === "GET"
   ) {
-    getRegion(req, res, id, undefined, undefined, "REGION");
+    getRegion(req, res, id1);
   } else if (
     id2 != undefined &&
     id3 === undefined &&
     req.url.match(/\/api\/regions\/\w+/) &&
     req.method === "GET"
   ) {
-    getRegion(req, res, id, id2, undefined, "SUB_REGION");
+    getSubRegion(req, res, id1, id2);
   } else if (
     req.url.match(/\/api\/regions\/\w+/) &&
     id2 != undefined &&
     id3 != undefined &&
     req.method === "GET"
   ) {
-    getRegion(req, res, id, id2, id3, "SUB_SUB_REGION");
+    getSubSubRegion(req, res, id1, id2, id3);
   }
 
   // --- Products (test) ---
   else if (req.url === "/api/products" && req.method === "GET") {
     getProducts(req, res);
   } else if (req.url.match(/\/api\/products\/\w+/) && req.method === "GET") {
-    getProduct(req, res, id);
+    getProduct(req, res, id1);
   } else if (req.url === "/api/products" && req.method === "POST") {
     createProduct(req, res);
   } else if (req.url.match(/\/api\/products\/\w+/) && req.method === "PUT") {
-    updateProduct(req, res, id);
+    updateProduct(req, res, id1);
   } else if (req.url.match(/\/api\/products\/\w+/) && req.method === "DELETE") {
-    deleteProduct(req, res, id);
+    deleteProduct(req, res, id1);
   }
 
-  // --- else ---
+  // --- Else ---
   else {
     res.writeHead(404, { "Content-Type": "application/json" });
     res.end(

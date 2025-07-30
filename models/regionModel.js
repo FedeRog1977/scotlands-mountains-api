@@ -8,41 +8,30 @@ function findAll() {
   });
 }
 
-function findByRegionName(regionName) {
+function findByRegionName(rName, srName, ssrName) {
   return new Promise((resolve, reject) => {
-    const region = regions.find((r) => r.name === regionName);
+    const region = regions.find((r) => r.name.toLowerCase() === rName);
+
+    if (ssrName) {
+      const subRegion = region.subRegions.find(
+        (sr) => sr.name.toLowerCase() === srName
+      );
+      const subSubRegion = subRegion.subSubRegions.find(
+        (ssr) => ssr.name.toLowerCase() === ssrName
+      );
+
+      resolve(subSubRegion);
+    }
+
+    if (srName) {
+      const subRegion = region.subRegions.find(
+        (sr) => sr.name.toLowerCase() === srName
+      );
+
+      resolve(subRegion);
+    }
 
     resolve(region);
-  });
-}
-
-function findBySubRegionName(regionName, subRegionName) {
-  return new Promise((resolve, reject) => {
-    const region = regions.find((r) => r.name === regionName);
-    const subRegion = region.subRegions.find((sr) => sr.name === subRegionName);
-
-    resolve(subRegion);
-  });
-}
-
-function findBySubSubRegionName(regionName, subRegionName, subSubRegionName) {
-  return new Promise((resolve, reject) => {
-    const region = regions.find((r) => r.name === regionName);
-    const subRegion = region.subRegions.find((sr) => sr.name === subRegionName);
-    const subSubRegion = subRegion.subSubRegions.find(
-      (ssr) => ssr.name === subSubRegionName
-    );
-
-    console.log(
-      "REGION::",
-      region,
-      "SUB_REGION::",
-      subRegion,
-      "SUB_SUB_REGION::",
-      subSubRegion
-    );
-
-    resolve(subSubRegion);
   });
 }
 
@@ -83,9 +72,7 @@ function findBySubSubRegionName(regionName, subRegionName, subSubRegionName) {
 
 module.exports = {
   findAll,
-  findByRegionName,
-  findBySubRegionName,
-  findBySubSubRegionName
+  findByRegionName
   // create,
   // update,
   // remove
