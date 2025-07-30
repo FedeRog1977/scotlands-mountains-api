@@ -1,8 +1,47 @@
 const Model = require("../models/regionModel");
 const { getPostData } = require("../utils");
 
-// @desc    Gets All Regions
-// @route   GET /api/regions
+// @desc  Gets All Region Names
+// @route GET /api/regions/names
+async function getRegionNames(req, res) {
+  try {
+    const regions = await Model.findAllNames();
+
+    res.writeHead(200, { "Content-Type": "application/json" });
+    res.end(JSON.stringify(regions));
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+// @desc  Gets All Sub-Region Names
+// @route GET /api/regions/:id/names
+async function getSubRegionNames(req, res, rName) {
+  try {
+    const regions = await Model.findAllNames(rName);
+
+    res.writeHead(200, { "Content-Type": "application/json" });
+    res.end(JSON.stringify(regions));
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+// @desc  Gets All Sub-Sub-Region Names
+// @route GET /api/regions/.../names
+async function getSubSubRegionNames(req, res, rName, srName) {
+  try {
+    const regions = await Model.findAllNames(rName, srName);
+
+    res.writeHead(200, { "Content-Type": "application/json" });
+    res.end(JSON.stringify(regions));
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+// @desc  Gets All Regions
+// @route GET /api/regions
 async function getRegions(req, res) {
   try {
     const regions = await Model.findAll();
@@ -13,12 +52,11 @@ async function getRegions(req, res) {
     console.log(error);
   }
 }
-
-// // @desc    Gets Single Region
-// // @route   GET /api/region/:id
-async function getRegion(req, res, regionName) {
+// // @desc  Gets Single Region
+// // @route GET /api/region/:id1
+async function getRegion(req, res, rName) {
   try {
-    const region = await Model.findByRegionName(regionName);
+    const region = await Model.findByRegionName(rName);
 
     if (!region) {
       res.writeHead(404, { "Content-Type": "application/json" });
@@ -32,11 +70,11 @@ async function getRegion(req, res, regionName) {
   }
 }
 
-// // @desc    Gets Single Sub-Region
-// // @route   GET /api/region/:id/:id2
-async function getSubRegion(req, res, regionName, subRegionName) {
+// // @desc  Gets Single Sub-Region
+// // @route GET /api/region/:id1/:id2
+async function getSubRegion(req, res, rName, srName) {
   try {
-    const region = await Model.findByRegionName(regionName, subRegionName);
+    const region = await Model.findByRegionName(rName, srName);
 
     if (!region) {
       res.writeHead(404, { "Content-Type": "application/json" });
@@ -50,21 +88,11 @@ async function getSubRegion(req, res, regionName, subRegionName) {
   }
 }
 
-// // @desc    Gets Single Sub-Sub-Region
-// // @route   GET /api/region/:id/:id2/:id3
-async function getSubSubRegion(
-  req,
-  res,
-  regionName,
-  subRegionName,
-  subSubRegionName
-) {
+// // @desc  Gets Single Sub-Sub-Region
+// // @route GET /api/region/:id1/:id2/:id3
+async function getSubSubRegion(req, res, rName, srName, ssrName) {
   try {
-    const region = await Model.findByRegionName(
-      regionName,
-      subRegionName,
-      subSubRegionName
-    );
+    const region = await Model.findByRegionName(rName, srName, ssrName);
 
     if (!region) {
       res.writeHead(404, { "Content-Type": "application/json" });
@@ -78,8 +106,8 @@ async function getSubSubRegion(
   }
 }
 
-// // @desc    Create a Product
-// // @route   POST /api/products
+// // @desc  Create a Product
+// // @route POST /api/products
 // async function createProduct(req, res) {
 //   try {
 //     const body = await getPostData(req);
@@ -101,8 +129,8 @@ async function getSubSubRegion(
 //   }
 // }
 
-// // @desc    Update a Product
-// // @route   PUT /api/products/:id
+// // @desc  Update a Product
+// // @route PUT /api/products/:id1
 // async function updateProduct(req, res, id) {
 //   try {
 //     const product = await Product.findById(id);
@@ -131,8 +159,8 @@ async function getSubSubRegion(
 //   }
 // }
 
-// // @desc    Delete Product
-// // @route   DELETE /api/product/:id
+// // @desc  Delete Product
+// // @route DELETE /api/product/:id1
 // async function deleteProduct(req, res, id) {
 //   try {
 //     const product = await Product.findById(id);
@@ -152,6 +180,9 @@ async function getSubSubRegion(
 // }
 
 module.exports = {
+  getRegionNames,
+  getSubRegionNames,
+  getSubSubRegionNames,
   getRegions,
   getRegion,
   getSubRegion,

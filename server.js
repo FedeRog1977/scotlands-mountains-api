@@ -8,6 +8,9 @@ const {
 } = require("./controllers/productController");
 const {
   getRegions,
+  getRegionNames,
+  getSubRegionNames,
+  getSubSubRegionNames,
   getRegion,
   getSubRegion,
   getSubSubRegion
@@ -23,28 +26,55 @@ const server = http.createServer((req, res) => {
     req.url.split("/")[5]
   ];
 
+  REQ_GET = req.method === "GET";
+  // REQ_POST = req.method === "POST";
+  // REQ_PUT = req.method === "PUT";
+  // REQ_GET = req.method === "DELETE";
+
+  const ZERO_SLUG = "/api/regions";
+  const ZERO_SLUG_NAMES = "/api/regions/names";
+
+  const ONE_SLUG_REGEX = /\/api\/regions\/\w+/;
+  const TWO_SLUG_REGEX = /\/api\/regions\/\w+\/\w+/;
+  const THREE_SLUG_REGEX = /\/api\/regions\/\w+\/\w+\/\w+/;
+  const ONE_SLUG_REGEX_NAMES = /\/api\/regions\/\w+\/names/;
+  const TWO_SLUG_REGEX_NAMES = /\/api\/regions\/\w+\/\w+\/names/;
+
   // --- Regions ---
-  if (req.url === "/api/regions" && req.method === "GET") {
+  if (req.url === ZERO_SLUG_NAMES && REQ_GET) {
+    getRegionNames(req, res);
+  }
+  //
+  else if (req.url.match(ONE_SLUG_REGEX_NAMES) && REQ_GET) {
+    getSubRegionNames(req, res, id1);
+  }
+  //
+  else if (req.url.match(TWO_SLUG_REGEX_NAMES) && REQ_GET) {
+    getSubSubRegionNames(req, res, id1, id2);
+  }
+  //
+  else if (req.url === ZERO_SLUG && REQ_GET) {
     getRegions(req, res);
-  } else if (
-    id2 === undefined &&
-    id3 === undefined &&
-    req.url.match(/\/api\/regions\/\w+/) &&
-    req.method === "GET"
-  ) {
+  }
+  //
+  else if (!id2 && !id3 && req.url.match(ONE_SLUG_REGEX) && REQ_GET) {
     getRegion(req, res, id1);
-  } else if (
+  }
+  //
+  else if (
     id2 != undefined &&
-    id3 === undefined &&
-    req.url.match(/\/api\/regions\/\w+/) &&
-    req.method === "GET"
+    !id3 &&
+    req.url.match(TWO_SLUG_REGEX) &&
+    REQ_GET
   ) {
     getSubRegion(req, res, id1, id2);
-  } else if (
-    req.url.match(/\/api\/regions\/\w+/) &&
+  }
+  //
+  else if (
+    req.url.match(THREE_SLUG_REGEX) &&
     id2 != undefined &&
     id3 != undefined &&
-    req.method === "GET"
+    REQ_GET
   ) {
     getSubSubRegion(req, res, id1, id2, id3);
   }
