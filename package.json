@@ -4,21 +4,20 @@
   "description": "Scotlands Mountains Node.js REST API Services",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js",
+    "dev": "node server.js",
     "format:check": "prettier --ignore-path ./.gitignore --check .",
     "format:fix": "prettier --ignore-path ./.gitignore --list-different --write .",
-    "start": "node server.js",
-    "test": "mocha --timeout 10000"
+    "start": "nodemon server.js"
   },
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "uuid": "^8.3.1"
+    "express": "^4.16.4",
+    "mongoose": "^5.5.7"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
-    "chai-http": "^4.3.0",
+    "dotenv": "^8.0.0",
     "eslint": "8.41.0",
-    "mocha": "^8.2.0",
     "nodemon": "^2.0.5",
     "prettier": "2.8.8"
   }
