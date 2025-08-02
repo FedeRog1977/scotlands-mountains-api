@@ -1,6 +1,4 @@
-let regions = require("../data/regions");
-// const { v4: uuidv4 } = require("uuid");
-// const { writeDataToFile } = require("../utils");
+let regions = require("../data/regions.json");
 
 function findAllNames(rName, srName) {
   return new Promise((resolve, reject) => {
@@ -60,46 +58,8 @@ function findByRegionName(rName, srName, ssrName) {
   });
 }
 
-// function create(product) {
-//   return new Promise((resolve, reject) => {
-//     const newProduct = { id: uuidv4(), ...product };
-//     regions.push(newProduct);
-//     if (process.env.NODE_ENV !== "test") {
-//       writeDataToFile("./data/regions.json", regions);
-//     }
-
-//     resolve(newProduct);
-//   });
-// }
-
-// function update(id, product) {
-//   return new Promise((resolve, reject) => {
-//     const index = regions.findIndex((p) => p.id === id);
-//     regions[index] = { id, ...product };
-//     if (process.env.NODE_ENV !== "test") {
-//       writeDataToFile("./data/regions.json", regions);
-//     }
-
-//     resolve(regions[index]);
-//   });
-// }
-
-// function remove(id) {
-//   return new Promise((resolve, reject) => {
-//     regions = regions.filter((p) => p.id !== id);
-//     if (process.env.NODE_ENV !== "test") {
-//       writeDataToFile("./data/regions.json", regions);
-//     }
-
-//     resolve();
-//   });
-// }
-
 module.exports = {
   findAllNames,
   findAll,
   findByRegionName
-  // create,
-  // update,
-  // remove
 };
