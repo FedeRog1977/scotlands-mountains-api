@@ -37,72 +37,9 @@ router.get('/names/:region/:subRegion', getSubSubRegionNames, (req, res) => {
   res.json(res.regionNames);
 });
 
-// // Creating one
-// router.post('/', async (req, res) => {
-//   const subscriber = new Subscriber({
-//     name: req.body.name,
-//     subscribedToChannel: req.body.subscribedToChannel,
-//   });
-//   try {
-//     const newSubscriber = await subscriber.save();
-//     res.status(201).json(newSubscriber);
-//   } catch (err) {
-//     res.status(400).json({ message: err.message });
-//   }
-// });
-
-// // Updating One
-// router.patch('/:id', getSubscriber, async (req, res) => {
-//   if (req.body.name != null) {
-//     res.subscriber.name = req.body.name;
-//   }
-//   if (req.body.subscribedToChannel != null) {
-//     res.subscriber.subscribedToChannel = req.body.subscribedToChannel;
-//   }
-//   try {
-//     const updatedSubscriber = await res.subscriber.save();
-//     res.json(updatedSubscriber);
-//   } catch (err) {
-//     res.status(400).json({ message: err.message });
-//   }
-// });
-
-// // Deleting One
-// router.delete('/:id', getSubscriber, async (req, res) => {
-//   try {
-//     await res.subscriber.remove();
-//     res.json({ message: 'Deleted Subscriber' });
-//   } catch (err) {
-//     res.status(500).json({ message: err.message });
-//   }
-// });
-
-// function findAllNames(rName, srName) {
-//   return new Promise((resolve, reject) => {
-//     if (srName) {
-//       const region = regions.find((r) => r.name.toLowerCase() === rName);
-//       const subRegion = region.subRegions.find((sr) => sr.name.toLowerCase() === srName);
-//       const regionNames = subRegion.subSubRegions.map((ssr) => ssr.name);
-
-//       resolve(regionNames);
-//     }
-
-//     if (rName) {
-//       const region = regions.find((r) => r.name.toLowerCase() === rName);
-//       const regionNames = region.subRegions.map((sr) => sr.name);
-
-//       resolve(regionNames);
-//     }
-
-//     const regionNames = regions.map((r) => r.name);
-
-//     resolve(regionNames);
-//   });
-// }
-
 async function getRegion(req, res, next) {
   try {
-    const region = regions.find((r) => r.name.toLowerCase() === req.params.region);
+    const region = regions.find((r) => r.name.replace(/\s+/g, '-').toLowerCase() === req.params.region);
 
     if (region == null) {
       return res.status(404).json({ message: 'Cannot find region' });
@@ -117,9 +54,9 @@ async function getRegion(req, res, next) {
 
 async function getSubRegion(req, res, next) {
   try {
-    const region = regions.find((r) => r.name.toLowerCase() === req.params.region);
+    const region = regions.find((r) => r.name.replace(/\s+/g, '-').toLowerCase() === req.params.region);
     const subRegion = region.subRegions.find(
-      (sr) => sr.name.toLowerCase() === req.params.subRegion,
+      (sr) => sr.name.replace(/\s+/g, '-').toLowerCase() === req.params.subRegion,
     );
 
     if (region == null || subRegion === null) {
@@ -135,12 +72,12 @@ async function getSubRegion(req, res, next) {
 
 async function getSubSubRegion(req, res, next) {
   try {
-    const region = regions.find((r) => r.name.toLowerCase() === req.params.region);
+    const region = regions.find((r) => r.name.replace(/\s+/g, '-').toLowerCase() === req.params.region);
     const subRegion = region.subRegions.find(
-      (sr) => sr.name.toLowerCase() === req.params.subRegion,
+      (sr) => sr.name.replace(/\s+/g, '-').toLowerCase() === req.params.subRegion,
     );
     const subSubRegion = subRegion.subSubRegions.find(
-      (ssr) => ssr.name.toLowerCase() === req.params.subSubRegion,
+      (ssr) => ssr.name.replace(/\s+/g, '-').toLowerCase() === req.params.subSubRegion,
     );
 
     if (region == null || subRegion === null || subSubRegion === null) {
@@ -171,7 +108,7 @@ async function getRegionNames(req, res, next) {
 
 async function getSubRegionNames(req, res, next) {
   try {
-    const region = regions.find((r) => r.name.toLowerCase() === req.params.region);
+    const region = regions.find((r) => r.name.replace(/\s+/g, '-').toLowerCase() === req.params.region);
     const regionNames = region.subRegions.map((sr) => sr.name);
 
     if (regionNames == null) {
@@ -187,8 +124,8 @@ async function getSubRegionNames(req, res, next) {
 
 async function getSubSubRegionNames(req, res, next) {
   try {
-    const region = regions.find((r) => r.name.toLowerCase() === req.params.region);
-    const subRegion = region.subRegions.find((r) => r.name.toLowerCase() === req.params.subRegion);
+    const region = regions.find((r) => r.name.replace(/\s+/g, '-').toLowerCase() === req.params.region);
+    const subRegion = region.subRegions.find((r) => r.name.replace(/\s+/g, '-').toLowerCase() === req.params.subRegion);
     const regionNames = subRegion.subSubRegions.map((ssr) => ssr.name);
 
     if (regionNames == null) {
