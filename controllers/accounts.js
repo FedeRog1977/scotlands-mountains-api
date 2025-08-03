@@ -68,7 +68,7 @@ router.post('/', async (req, res) => {
   } else if (!req.body.password.match(PASSWORD_VALIDATION)) {
     res
       .status(500)
-      .json({ message: `Account password ${req.body.password} does not meet requirements` });
+      .json({ message: `Account password "${req.body.password}" does not meet requirements` });
   } else {
     const rest = req.body;
 
@@ -82,8 +82,7 @@ router.post('/', async (req, res) => {
       // const newAccount = await subscriber.save();
       writeDataToFile('./data/accounts.json', accounts);
       res.status(201).json({
-        account: { id: accounts[index].id + 1, entryDate: new Date().toISOString(), ...rest },
-        message: `Created account ${req.account.username}`,
+        message: `Created account for "${req.account.username}"`,
       });
     } catch (error) {
       res.status(400).json({ message: error.message });
