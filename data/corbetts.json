@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Beinn a Bhuiridh",
+    "latitude": 56.4089,
+    "longitude": -5.09,
+    "osGrid": "NN094283",
+    "elevation": 2943,
+    "prominence": 555,
+    "isolation": 0.89,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Beinn Udlaidh",
+    "latitude": 56.4588,
+    "longitude": -4.7919,
+    "osGrid": "NN280332",
+    "elevation": 2756,
+    "prominence": 1713,
+    "isolation": 2.34,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Beinn Bhreac-liath",
+    "latitude": 56.4667,
+    "longitude": -4.7565,
+    "osGrid": "NN302339",
+    "elevation": 2631,
+    "prominence": 705,
+    "isolation": 1.35,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Beinn Mhic-Mhonaidh",
+    "latitude": 56.473,
+    "longitude": -4.9097,
+    "osGrid": "NN208350",
+    "elevation": 2612,
+    "prominence": 1378,
+    "isolation": 3.96,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Creach Bheinn (Loch Creran)",
+    "latitude": 56.5304,
+    "longitude": -5.215,
+    "osGrid": "NN023422",
+    "elevation": 2657,
+    "prominence": 803,
+    "isolation": 1.85,
+    "summit": "Triangulation Station TP2548 [Pillar (Round)] at NM 87060 57649"
+  },
+  {
+    "name": "Beinn Trilleachan",
+    "latitude": 56.5479,
+    "longitude": -5.1144,
+    "osGrid": "NN086439",
+    "elevation": 2756,
+    "prominence": 1568,
+    "isolation": 2.23,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Beinn Mhic Chasgaig",
+    "latitude": 56.61,
+    "longitude": -4.8994,
+    "osGrid": "NN221502",
+    "elevation": 2835,
+    "prominence": 545,
+    "isolation": 0.55,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Fraochaidh",
+    "latitude": 56.6156,
+    "longitude": -5.2137,
+    "osGrid": "NN029517",
+    "elevation": 2884,
+    "prominence": 1808,
+    "isolation": 2.16,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Meall Lighiche",
+    "latitude": 56.6284,
+    "longitude": -5.1074,
+    "osGrid": "NN097528",
+    "elevation": 2533,
+    "prominence": 811,
+    "isolation": 0.87,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Stob Dubh",
+    "latitude": 56.5954,
+    "longitude": -4.9881,
+    "osGrid": "NN166488",
+    "elevation": 2897,
+    "prominence": 1709,
+    "isolation": 2.4,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Beinn Maol Chaluim",
+    "latitude": 56.6278,
+    "longitude": -5.0419,
+    "osGrid": "NN134525",
+    "elevation": 2976,
+    "prominence": 650,
+    "isolation": 0.86,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Beinn a Chrulaiste",
+    "latitude": 56.6689,
+    "longitude": -4.8635,
+    "osGrid": "NN246566",
+    "elevation": 2812,
+    "prominence": 1523,
+    "isolation": 1.91,
+    "summit": "Triangulation Station TP1142 [Pillar (Round)] at NN 24626 56687"
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "name": "Stob Dearg",
+    "latitude": 56.4289,
+    "longitude": -5.1437,
+    "osGrid": "NN062307",
+    "elevation": 3619,
+    "prominence": 318,
+    "isolation": 0.48,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Drochaid Ghlas",
+    "latitude": 56.43,
+    "longitude": -5.109844,
+    "osGrid": "NN083307",
+    "elevation": 3360,
+    "prominence": 299,
+    "isolation": 0.67,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Stob Garbh",
+    "latitude": 56.4258,
+    "longitude": -5.0896,
+    "osGrid": "NN095302",
+    "elevation": 3222,
+    "prominence": 171,
+    "isolation": 0.38,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Sron An Isean",
+    "latitude": 56.434,
+    "longitude": -5.0842,
+    "osGrid": "NN099311",
+    "elevation": 3173,
+    "prominence": 181,
+    "isolation": 0.33,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Meall Cuanail",
+    "latitude": 56.4186,
+    "longitude": -5.1309,
+    "osGrid": "NN069295",
+    "elevation": 3018,
+    "prominence": 308,
+    "isolation": 0.32,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Stob Coire Dheirg",
+    "latitude": 56.5387,
+    "longitude": -5.0406,
+    "osGrid": "NN131426",
+    "elevation": 3373,
+    "prominence": 43,
+    "isolation": 0.19,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Meall Cruidh",
+    "latitude": 56.5287,
+    "longitude": -5.0434,
+    "osGrid": "NN129415",
+    "elevation": 3051,
+    "prominence": 115,
+    "isolation": 0.32,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Stob an Duine Ruaidh",
+    "latitude": 56.5234,
+    "longitude": -5.0503,
+    "osGrid": "NN124409",
+    "elevation": 3012,
+    "prominence": 217,
+    "isolation": 0.43,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Clach Leathad",
+    "latitude": 56.6026,
+    "longitude": -4.8681,
+    "osGrid": "NN240493",
+    "elevation": 3606,
+    "prominence": 223,
+    "isolation": 0.9,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Mam Coire Easain",
+    "latitude": 56.6088,
+    "longitude": -4.871,
+    "osGrid": "NN238500",
+    "elevation": 3510,
+    "prominence": 26,
+    "isolation": null,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Stob a Ghlais Choire",
+    "latitude": 56.6232,
+    "longitude": -4.8703,
+    "osGrid": "NN239516",
+    "elevation": 3268,
+    "prominence": 89,
+    "isolation": 0.28,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Aonach Eagach",
+    "latitude": 56.5666,
+    "longitude": -4.8708,
+    "osGrid": "NN235453",
+    "elevation": 3251,
+    "prominence": null,
+    "isolation": null,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Sron a Ghearrain",
+    "latitude": 56.56906,
+    "longitude": -4.897,
+    "osGrid": "NN221456",
+    "elevation": 3248,
+    "prominence": 46,
+    "isolation": 0.37,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Sron nan Giubhas",
+    "latitude": 56.5746,
+    "longitude": -4.882,
+    "osGrid": "NN230461",
+    "elevation": 3202,
+    "prominence": null,
+    "isolation": null,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Stob a Bhruaich Leith",
+    "latitude": 56.5715,
+    "longitude": -4.9174,
+    "osGrid": "NN208459",
+    "elevation": 3087,
+    "prominence": 138,
+    "isolation": 0.51,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Stob an Fhuarain",
+    "latitude": 56.6247,
+    "longitude": -5.069,
+    "osGrid": "NN118523",
+    "elevation": 3176,
+    "prominence": 338,
+    "isolation": 0.53,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Stob na Doire",
+    "latitude": 56.6367,
+    "longitude": -4.9242,
+    "osGrid": "NN207532",
+    "elevation": 3317,
+    "prominence": 473,
+    "isolation": 1.11,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Stob Coire Altruim",
+    "latitude": 56.6347,
+    "longitude": -4.9397,
+    "osGrid": "NN197530",
+    "elevation": 3081,
+    "prominence": 115,
+    "isolation": 0.54,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Bidean nam Bian West Top",
+    "latitude": 56.643,
+    "longitude": -5.0327,
+    "osGrid": "NN141542",
+    "elevation": 3743,
+    "prominence": null,
+    "isolation": null,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Stob Coire nan Lochan",
+    "latitude": 56.6488,
+    "longitude": -5.0218,
+    "osGrid": "NN148548",
+    "elevation": 3278,
+    "prominence": 380,
+    "isolation": 0.5,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Stob Coire nam Beith",
+    "latitude": 56.6452,
+    "longitude": -5.0367,
+    "osGrid": "NN138546",
+    "elevation": 3632,
+    "prominence": 105,
+    "isolation": 0.19,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Beinn Fhada",
+    "latitude": 56.642,
+    "longitude": -5.0027,
+    "osGrid": "NN159540",
+    "elevation": 3123,
+    "prominence": 164,
+    "isolation": 0.29,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Beinn Fhada NE Top",
+    "latitude": 56.6445,
+    "longitude": -4.9954,
+    "osGrid": "NN164543",
+    "elevation": 3054,
+    "prominence": 180,
+    "isolation": 0.33,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Sgorr Bhan",
+    "latitude": 56.656,
+    "longitude": -5.1621,
+    "osGrid": "NN062560",
+    "elevation": 3107,
+    "prominence": 151,
+    "isolation": 0.33,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Am Bodach",
+    "latitude": 56.6779,
+    "longitude": -4.9914,
+    "osGrid": "NN168580",
+    "elevation": 3091,
+    "prominence": 247,
+    "isolation": 0.49,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Stob Coire Leith",
+    "latitude": 56.6813,
+    "longitude": -5.0227,
+    "osGrid": "NN149584",
+    "elevation": 3081,
+    "prominence": 200,
+    "isolation": 0.55,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Meall Dearg East Top",
+    "latitude": 56.6794,
+    "longitude": -5.0005,
+    "osGrid": "NN162582",
+    "elevation": 3025,
+    "prominence": null,
+    "isolation": null,
+    "summit": "Cairn"
+  }
+]

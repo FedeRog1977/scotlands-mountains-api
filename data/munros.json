@@ -1,0 +1,262 @@
+[
+  {
+    "name": "Ben Cruachan",
+    "latitude": 56.4267,
+    "longitude": -5.1319,
+    "osGrid": "NN069304",
+    "elevation": 3694,
+    "prominence": 2884,
+    "isolation": 12.43,
+    "summit": "Triangulation Station TP1263 [Pillar (Round (Destroyed))] at NN 06965 30471"
+  },
+  {
+    "name": "Stob Daimh",
+    "latitude": 56.4312,
+    "longitude": -5.0913,
+    "osGrid": "NN094308",
+    "elevation": 3274,
+    "prominence": 436,
+    "isolation": 0.71,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Beinn Eunaich",
+    "latitude": 56.4503,
+    "longitude": -5.0266,
+    "osGrid": "NN135327",
+    "elevation": 3245,
+    "prominence": 1395,
+    "isolation": 2.81,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Beinn a Chochuill",
+    "latitude": 56.4497,
+    "longitude": -5.0685,
+    "osGrid": "NN109328",
+    "elevation": 3215,
+    "prominence": 827,
+    "isolation": 1.53,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Ben Starav",
+    "latitude": 56.5389,
+    "longitude": -5.0497,
+    "osGrid": "NN125427",
+    "elevation": 3537,
+    "prominence": 1464,
+    "isolation": 6.71,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Stob Coir an Albannaich",
+    "latitude": 56.5549,
+    "longitude": -4.9798,
+    "osGrid": "NN169443",
+    "elevation": 3425,
+    "prominence": 1004,
+    "isolation": 2.8,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Glas Bheinn Mhor",
+    "latitude": 56.5424,
+    "longitude": -5.0052,
+    "osGrid": "NN153429",
+    "elevation": 3271,
+    "prominence": 758,
+    "isolation": 1.21,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Beinn nan Aighenan",
+    "latitude": 56.5202,
+    "longitude": -5.0112,
+    "osGrid": "NN148405",
+    "elevation": 3150,
+    "prominence": 1126,
+    "isolation": 1.5,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Meall nan Eun",
+    "latitude": 56.5611,
+    "longitude": -4.9429,
+    "osGrid": "NN192449",
+    "elevation": 3045,
+    "prominence": 571,
+    "isolation": 1.21,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Meall a Bhuiridh",
+    "latitude": 56.6122,
+    "longitude": -4.852,
+    "osGrid": "NN250503",
+    "elevation": 3635,
+    "prominence": 2608,
+    "isolation": 6.95,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Creise",
+    "latitude": 56.6144,
+    "longitude": -4.8719,
+    "osGrid": "NN238506",
+    "elevation": 3606,
+    "prominence": 555,
+    "isolation": 0.76,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Stob Ghabhar",
+    "latitude": 56.568,
+    "longitude": -4.8821,
+    "osGrid": "NN230455",
+    "elevation": 3576,
+    "prominence": 1289,
+    "isolation": 2.44,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Stob a Choire Odhair",
+    "latitude": 56.5733,
+    "longitude": -4.8382,
+    "osGrid": "NN257459",
+    "elevation": 3100,
+    "prominence": 908,
+    "isolation": 1.28,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Beinn Sgulaird",
+    "latitude": 56.5662,
+    "longitude": -5.1703,
+    "osGrid": "NN053460",
+    "elevation": 3074,
+    "prominence": 2172,
+    "isolation": 3.43,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Beinn Fhionnlaidh",
+    "latitude": 56.601,
+    "longitude": -5.1049,
+    "osGrid": "NN095497",
+    "elevation": 3146,
+    "prominence": 1673,
+    "isolation": 1.55,
+    "summit": "Triangulation Station TP1187 [Pillar (Round)] at NN 09500 49772"
+  },
+  {
+    "name": "Sgor na h-Ulaidh",
+    "latitude": 56.6198,
+    "longitude": -5.08,
+    "osGrid": "NN111517",
+    "elevation": 3261,
+    "prominence": 1361,
+    "isolation": 1361,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Stob Dearg (Buachaille Etive Mor)",
+    "latitude": 56.6462,
+    "longitude": -4.9003,
+    "osGrid": "NN222542",
+    "elevation": 3351,
+    "prominence": 1746,
+    "isolation": 2.48,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Stob na Broige (Buachaille Etive Mor)",
+    "latitude": 56.6298,
+    "longitude": -4.9511,
+    "osGrid": "NN190525",
+    "elevation": 3136,
+    "prominence": 439,
+    "isolation": 0.94,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Stob Dubh (Buachaille Etive Beag)",
+    "latitude": 56.6381,
+    "longitude": -4.9708,
+    "osGrid": "NN179535",
+    "elevation": 3143,
+    "prominence": 1539,
+    "isolation": 1.34,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Stob Coire Raineach",
+    "latitude": 56.6499,
+    "longitude": -4.9516,
+    "osGrid": "NN191547",
+    "elevation": 3035,
+    "prominence": 581,
+    "isolation": 1.09,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Bidean nam Bian",
+    "latitude": 56.6413,
+    "longitude": -5.0271,
+    "osGrid": "NN143542",
+    "elevation": 3772,
+    "prominence": 2772,
+    "isolation": 10.49,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Stob Coire Sgreamhach",
+    "latitude": 56.6382,
+    "longitude": -5.0106,
+    "osGrid": "NN155536",
+    "elevation": 3517,
+    "prominence": 419,
+    "isolation": 0.64,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Sgorr Dhearg (Beinn a Bheithir)",
+    "latitude": 56.654,
+    "longitude": -5.1714,
+    "osGrid": "NN056558",
+    "elevation": 3360,
+    "prominence": 2392,
+    "isolation": 5.07,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Sgorr Dhonuill (Beinn a Bheithir)",
+    "latitude": 56.6504,
+    "longitude": -5.1977,
+    "osGrid": "NN040555",
+    "elevation": 3284,
+    "prominence": 800,
+    "isolation": 1.03,
+    "summit": "Cairn"
+  },
+  {
+    "name": "Sgorr nam Fiannaidh (Aonach Eagach)",
+    "latitude": 56.6793,
+    "longitude": -5.0371,
+    "osGrid": "NN140583",
+    "elevation": 3173,
+    "prominence": 2041,
+    "isolation": 1.92,
+    "summit": "Triangulation Station TP5884 [Pillar (Stone-built)] at NN 14043 58305"
+  },
+  {
+    "name": "Meall Dearg (Aonach Eagach)",
+    "latitude": 56.6807,
+    "longitude": -5.0032,
+    "osGrid": "NN161583",
+    "elevation": 3123,
+    "prominence": 393,
+    "isolation": 1.29,
+    "summit": "Cairn"
+  }
+]
