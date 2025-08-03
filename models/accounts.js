@@ -1,3 +1,5 @@
+const accounts = require('../data/accounts.json');
+
 async function getAccount(req, res, next) {
   try {
     const account = accounts.find((account) => account.id === req.params.id);
