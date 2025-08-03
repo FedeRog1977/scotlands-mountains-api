@@ -2,9 +2,18 @@ const mongoose = require('mongoose');
 
 // TODO: implement with MongoDB database
 const accountSchema = new mongoose.Schema({
+  id: {
+    type: Number,
+    required: true,
+  },
   honorific: {
     type: String,
     required: true,
+  },
+  entryDate: {
+    type: Date,
+    required: true,
+    default: Date.now,
   },
   forename: {
     type: String,
@@ -21,11 +30,6 @@ const accountSchema = new mongoose.Schema({
   password: {
     type: String,
     required: true,
-  },
-  entryDate: {
-    type: Date,
-    required: true,
-    default: Date.now,
   },
 });
 
