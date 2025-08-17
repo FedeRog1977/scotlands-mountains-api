@@ -6,8 +6,20 @@ const { PASSWORD_VALIDATION } = require('../libs/constants/password-validation.j
 const { writeDataToFile } = require('../libs/utils/write-data-to-file.js');
 const { getAccount } = require('../models/accounts.js');
 
-// @desc Get all accounts
-// @route GET /accounts
+/**
+ * @swagger
+ * /:
+ *   get:
+ *     summary: Get all accounts.
+ *     description: Get all accounts.
+ *     responses:
+ *       '200':
+ *         description: Success
+ *       '404':
+ *         description: Accounts not found
+ *       '500':
+ *         description: Internal server error
+ */
 router.get('/', async (req, res) => {
   try {
     // TODO: implement with MongoDB database
@@ -18,8 +30,27 @@ router.get('/', async (req, res) => {
   }
 });
 
-// @desc Update an account
-// @route PATCH /accounts/:id
+/**
+ * @swagger
+ * /{id}:
+ *   patch:
+ *     summary: Update account by ID.
+ *     description: Update account by ID.
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         schema:
+ *           type: string
+ *         required: true
+ *         description: Account ID
+ *     responses:
+ *       '200':
+ *         description: Success
+ *       '404':
+ *         description: Account not found
+ *       '500':
+ *         description: Internal server error
+ */
 router.patch('/:id', getAccount, async (req, res) => {
   const rest = {
     honorific: req.body.honorific ?? res.account.honorific,

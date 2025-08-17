@@ -3,7 +3,21 @@ const router = express.Router();
 const regions = require('../data/regions.json');
 // const Region = require('../models/region.js');
 
-router.get('/', async (req, res) => {
+/**
+ * @swagger
+ * /data:
+ *   get:
+ *     summary: Get all region data.
+ *     description: Get all region data.
+ *     responses:
+ *       '200':
+ *         description: Success
+ *       '404':
+ *         description: Regions not found
+ *       '500':
+ *         description: Internal server error
+ */
+router.get('/data', async (req, res) => {
   try {
     // TODO: implement with MongoDB database
     // const regions = await Account.find();
@@ -13,6 +27,27 @@ router.get('/', async (req, res) => {
   }
 });
 
+/**
+ * @swagger
+ * /data/{region}:
+ *   get:
+ *     summary: Get region data by region.
+ *     description: Get region data by region.
+ *     parameters:
+ *       - in: path
+ *         name: region
+ *         schema:
+ *           type: string
+ *         required: true
+ *         description: Region name.
+ *     responses:
+ *       '200':
+ *         description: Success
+ *       '404':
+ *         description: Region not found
+ *       '500':
+ *         description: Internal server error
+ */
 router.get('/data/:region', getRegion, (req, res) => {
   res.json(res.region);
 });
@@ -39,7 +74,9 @@ router.get('/names/:region/:subRegion', getSubSubRegionNames, (req, res) => {
 
 async function getRegion(req, res, next) {
   try {
-    const region = regions.find((r) => r.name.replace(/\s+/g, '-').toLowerCase() === req.params.region);
+    const region = regions.find(
+      (r) => r.name.replace(/\s+/g, '-').toLowerCase() === req.params.region,
+    );
 
     if (region == null) {
       return res.status(404).json({ message: 'Cannot find region' });
@@ -54,7 +91,9 @@ async function getRegion(req, res, next) {
 
 async function getSubRegion(req, res, next) {
   try {
-    const region = regions.find((r) => r.name.replace(/\s+/g, '-').toLowerCase() === req.params.region);
+    const region = regions.find(
+      (r) => r.name.replace(/\s+/g, '-').toLowerCase() === req.params.region,
+    );
     const subRegion = region.subRegions.find(
       (sr) => sr.name.replace(/\s+/g, '-').toLowerCase() === req.params.subRegion,
     );
@@ -72,7 +111,9 @@ async function getSubRegion(req, res, next) {
 
 async function getSubSubRegion(req, res, next) {
   try {
-    const region = regions.find((r) => r.name.replace(/\s+/g, '-').toLowerCase() === req.params.region);
+    const region = regions.find(
+      (r) => r.name.replace(/\s+/g, '-').toLowerCase() === req.params.region,
+    );
     const subRegion = region.subRegions.find(
       (sr) => sr.name.replace(/\s+/g, '-').toLowerCase() === req.params.subRegion,
     );
@@ -108,7 +149,9 @@ async function getRegionNames(req, res, next) {
 
 async function getSubRegionNames(req, res, next) {
   try {
-    const region = regions.find((r) => r.name.replace(/\s+/g, '-').toLowerCase() === req.params.region);
+    const region = regions.find(
+      (r) => r.name.replace(/\s+/g, '-').toLowerCase() === req.params.region,
+    );
     const regionNames = region.subRegions.map((sr) => sr.name);
 
     if (regionNames == null) {
@@ -124,8 +167,12 @@ async function getSubRegionNames(req, res, next) {
 
 async function getSubSubRegionNames(req, res, next) {
   try {
-    const region = regions.find((r) => r.name.replace(/\s+/g, '-').toLowerCase() === req.params.region);
-    const subRegion = region.subRegions.find((r) => r.name.replace(/\s+/g, '-').toLowerCase() === req.params.subRegion);
+    const region = regions.find(
+      (r) => r.name.replace(/\s+/g, '-').toLowerCase() === req.params.region,
+    );
+    const subRegion = region.subRegions.find(
+      (r) => r.name.replace(/\s+/g, '-').toLowerCase() === req.params.subRegion,
+    );
     const regionNames = subRegion.subSubRegions.map((ssr) => ssr.name);
 
     if (regionNames == null) {
