@@ -7,8 +7,8 @@ Node.js REST API services for Scotland's Mountains Web.
 - [Express routing](https://expressjs.com/en/guide/routing.html)
 - [YouTube guide](https://www.youtube.com/watch?v=fgTGADljAeg)
 - [Swagger](https://swagger.io/docs/specification/v3_0/api-host-and-base-path/)
+- [Swagger UI Express](https://www.npmjs.com/package/swagger-ui-express)
 - [Adding Swagger](https://github.com/scottie1984/swagger-ui-express)
-- [Adding Swagger](https://www.npmjs.com/package/swagger-ui-express)
 - [Adding Swagger](https://medium.com/@sagiweizmann/express-to-impress-documenting-apis-with-swagger-3744e95c1870)
 
 ## Architecture
