@@ -1,6 +1,6 @@
 # Scotland's Mountains API
 
-Node.js REST API services for Scotland's Mountains Web.
+Node.js REST API service for Scotland's Mountains Web.
 
 ## Guides
 
