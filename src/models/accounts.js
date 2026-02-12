@@ -1,4 +1,4 @@
-const accounts = require('../data/accounts.json');
+const accounts = require('../../data/accounts.json');
 
 async function getAccount(req, res, next) {
   try {

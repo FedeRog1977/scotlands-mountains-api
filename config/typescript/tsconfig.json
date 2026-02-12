@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    // Maybe I wont modularize this package?
+    // "target": "esnext",
+    // "module": "nodenext",
+    // "moduleResolution": "nodenext",
+    "outDir": "build",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true
+  }
+}
