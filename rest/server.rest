@@ -1,0 +1,7 @@
+### Options
+OPTIONS http://localhost:8080
+
+### Health
+GET http://localhost:8080/health
+
+...
