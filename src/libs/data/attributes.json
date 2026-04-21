@@ -167,5 +167,6 @@
     "Smooth Slab, Grade 1 (Easy)",
     "Smooth Slab, Grade 2 (Moderate)",
     "Smooth Slab, Grade 3 (Challenging)"
-  ]
+  ],
+  "snow": ["Spindrift", "Avalanche"]
 }
